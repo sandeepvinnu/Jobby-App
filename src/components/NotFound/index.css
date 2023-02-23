@@ -1,0 +1,41 @@
+.nf-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.nf-img {
+  height: 300px;
+  width: 40%;
+}
+
+.nf-heading {
+  font-family: 'Roboto';
+  font-size: 40px;
+  font-weight: 500;
+  color: white;
+}
+
+.nf-cont {
+  background-color: black;
+  min-height: 100vh;
+}
+
+.nf-para {
+  color: white;
+  font-family: 'Roboto';
+}
+
+@media screen and (max-width: 560px) {
+  .nf-img {
+    width: 100%;
+  }
+  .nf-heading {
+    font-size: 20px;
+  }
+  .nf-para {
+    font-size: 14px;
+  }
+}

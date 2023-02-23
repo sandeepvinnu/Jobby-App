@@ -1,0 +1,191 @@
+.h {
+  color: white;
+}
+
+.ji-list-item {
+  background-color: #272727;
+  margin: 20px;
+  border-radius: 12px;
+  padding: 15px;
+}
+
+.card-1-ji {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.company-ji-img {
+  height: 70px;
+  width: 70px;
+  border-radius: 7px;
+  margin: 20px;
+}
+
+.inner-card-j-ji {
+  display: flex;
+  flex-direction: column;
+}
+
+.p-1-ji {
+  color: white;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.inner-2-card-1-ji {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: -20px;
+}
+
+.div-icon {
+  color: yellow;
+}
+
+.div-icon-1 {
+  color: white;
+}
+
+.icon-ji {
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+.card-2-ji {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+  margin-top: -10px;
+}
+
+.loc-ji {
+  font-size: 15px;
+  color: white;
+  margin-right: 30px;
+}
+
+.card-2-inner-ji {
+  display: flex;
+  align-items: center;
+}
+
+.lpa-ji {
+  font-size: 20px;
+  color: white;
+}
+
+.hr {
+  color: #b6c5ff;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.des-ji {
+  color: white;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 600;
+  margin: 20px;
+}
+
+.des-2-ji {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 15px;
+  margin: 20px;
+}
+
+.link-ji {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 560px) {
+  .company-ji-img {
+    height: 50px;
+    width: 50px;
+    border-radius: 7px;
+    margin: 10px;
+  }
+
+  .inner-card-j-ji {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .p-1-ji {
+    color: white;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 15px;
+  }
+
+  .inner-2-card-1-ji {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: -10px;
+  }
+
+  .div-icon {
+    color: yellow;
+  }
+
+  .div-icon-1 {
+    color: white;
+  }
+
+  .icon-ji {
+    font-size: 20px;
+    margin-right: 5px;
+  }
+
+  .card-2-ji {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    margin-top: -15px;
+  }
+
+  .loc-ji {
+    font-size: 13px;
+    color: white;
+    margin-right: 10px;
+  }
+
+  .card-2-inner-ji {
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+  }
+
+  .lpa-ji {
+    font-size: 15px;
+    color: white;
+  }
+
+  .hr {
+    color: #b6c5ff;
+  }
+
+  .des-ji {
+    color: white;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 600;
+    margin: 20px;
+  }
+
+  .des-2-ji {
+    color: #f1f5f9;
+    font-family: 'Roboto';
+    font-size: 13px;
+    margin: 20px;
+  }
+}
